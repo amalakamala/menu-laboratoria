@@ -1,0 +1,47 @@
+@media (min-width: 1px) and (max-width: 768px){
+	#menu{
+		font-family: 'Raleway', sans-serif;	
+		flex-direction: column;
+		background-color: #22696B;
+		text-decoration: none;
+		color: white;
+		width: 100%;
+		padding: 20px;			
+
+	}
+	#menu:hover{
+		color: #6FBDBC;	
+	}
+
+	#nav.flex-container{
+		flex-direction: column;
+	}
+
+	.menu-nav{
+		display: none;		
+	}
+
+	#nav{
+		padding: 0;	
+		background-color: #3F3F3F;	
+		font-family: 'Raleway', sans-serif;				
+	}
+
+	#nav a{
+		text-decoration: none;
+		border-bottom: 2px solid black;
+		padding: 20px 8%;
+		color: white;
+	}
+
+	#nav a:hover{
+		color:  #6FBDBC; 
+	}
+
+}
+
+@media (min-width: 768px){
+	#menu{
+		display: none;
+	}
+}
